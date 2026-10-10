@@ -73,18 +73,29 @@ Your question: Add 2 and 3, then multiply the result by 4
 ```
 
 ```json
+Your question: add 2 and 3, then multiply the result by 4
 {
-  "answer": "2 + 3 = 5, and 5 x 4 = 20.",
+  "answer": "20.0",
   "calculations": [
     {
       "tool": "add_numbers",
-      "inputs": [2.0, 3.0],
-      "output": {"result": 5.0}
+      "inputs": [
+        2.0,
+        3.0
+      ],
+      "output": {
+        "result": 5.0
+      }
     },
     {
       "tool": "multiply_numbers",
-      "inputs": [5.0, 4.0],
-      "output": {"result": 20.0}
+      "inputs": [
+        5.0,
+        4.0
+      ],
+      "output": {
+        "result": 20.0
+      }
     }
   ]
 }
