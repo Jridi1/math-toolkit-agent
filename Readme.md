@@ -118,12 +118,6 @@ pytest test_tools.py -v
 * `requirements.txt`: Python dependencies
 * `.env.example`: template for your API key
 
-## Limitations and next steps
-
-* Only basic operations for now
-* Planned: power and square root, an expression solver with SymPy, statistics tools, unit conversion and chat memory
-* Planned: a simple web interface
-
 ## Author
 
 Abderrahim Jridi
